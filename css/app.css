@@ -1,0 +1,129 @@
+
+/* Navbar */
+.target-navbar {
+    color: white;
+    background-color: #CC0101;
+}
+
+.target-navbar .nav-link { color: white;}
+
+#icon-container {
+    color: white;
+    fill: white;
+}
+
+#icon-container svg {
+    width: 40px;
+    height: 40px;
+}
+
+.menu-icon, .navbar-toggler-icon {
+    width: 25px;
+    height: 25px;
+    color: white;
+}
+
+/* Subnav */
+.target-subnav {
+    background-color: white;
+    border-bottom: 1px solid #CCC;
+}
+
+.target-subnav a{color: #666666;}
+
+#shopping-note {
+    color: #666666;
+    font-size: smaller;
+    margin: .5rem 1rem;
+}
+
+#shopping-warning-open {color: green;}
+#shopping-warning-closed, .text-emphasis {color: #CC0101;}
+
+#shopping-store {
+    font-size: medium; 
+    font-weight: bold;
+}
+
+/* Cart */
+#gift-order-section{
+    text-align: center;
+    margin: 1rem 0;
+    clear: both;
+}
+
+.cart-summary-container {
+    background-color: #efefef;
+    padding: 1rem;
+}
+.cart-summary-container a {
+    color: #666;
+    text-decoration: underline;
+}
+
+.cart-summary-title {
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sale-item {
+    line-height: 1rem;
+}
+
+.sale-item-title {
+    color: #CC0101;
+    font-size: .8rem;
+}
+
+.sale-item-price {
+    color: #CC0101;
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+.sale-item-msrp {
+    color: #666;
+    font-size: .8rem;
+}
+
+/* Receipt */
+.cart-receipt-container {
+    border: 1px solid #CCC;
+}
+
+.cart-receipt-title {
+    font-size: large;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+#receipt-table {font-weight: bold;}
+
+.receipt-count {font-weight: normal;}
+
+.receipt-amount {text-align: right;}
+
+.receipt-total-row {
+    border-top: 1px solid #CCC;
+}
+
+#checkout-button {
+    background-color: #CC0101;
+}
+
+/* Ads */
+.ad-space {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 150px;
+    width: 100%;
+    color: white;
+}
+
+.ad-text {
+    text-align: center;
+    max-width: 50%;
+}

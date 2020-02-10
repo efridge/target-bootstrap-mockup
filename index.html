@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/app.css" />
+
+    <title>Target: Expect More. Pay Less.</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg target-navbar">
+      <div id="icon-container">
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+          focusable="false"
+        >
+          <path
+            d="M12 1c6.074 0 10.999 4.925 10.999 11 0 6.074-4.925 10.999-11 10.999-6.074 0-10.999-4.925-10.999-11C1 5.925 5.925 1 12 1zm0 18.173a7.174 7.174 0 10-.001-14.347 7.174 7.174 0 000 14.347zm0-3.653a3.52 3.52 0 110-7.04 3.52 3.52 0 010 7.04z"
+            fill-rule="evenodd"
+          ></path>
+        </svg>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <ion-icon name="menu-outline" class="navbar-toggler-icon"></ion-icon>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Categories
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Deals
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              What's New
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Same Day Delivery</a>
+          </li>
+        </ul>
+
+        <form class="form-inline my-2 my-lg-0">
+          <label class="sr-only" for="search">Search</label>
+          <input
+            id="search"
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+        </form>
+        <ul class="navbar-nav mr-5">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <ion-icon
+                name="person-circle-outline"
+                class="menu-icon"
+              ></ion-icon>
+            </a>
+            <div
+              class="dropdown-menu dropdown-menu-right"
+              aria-labelledby="navbarDropdown"
+            >
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              ><ion-icon name="cart-outline" class="menu-icon"></ion-icon
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav class="target-subnav">
+      <div class="row">
+        <div class="col-lg-3">
+          <div id="shopping-note">
+            You're shopping
+            <span id="shopping-warning-open">(closes at 10pm)</span>:
+            <div id="shopping-store">Pensacola NE</div>
+          </div>
+        </div>
+        <div class="col-9">
+          <div class="d-flex flex-row flex-row-reverse mt-2">
+            <ul class="nav d-none d-lg-flex">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Registries & Lists</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Weekly Ad</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">RedCard</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gift Cards</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Find Stores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Orders</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="container-xl">
+      <form id="cart">
+        <div class="row">
+          <div class="col-md-8 cart-summary-container">
+            <h1 class="cart-summary-title d-sm-none">
+              Your cart (1 item): $268.74
+            </h1>
+            <hr class="d-sm-none">
+
+            <button type="button" class="btn btn-outline-dark btn-sm float-right">Sign in</button>
+            <h1 class="cart-summary-title d-none d-sm-block">
+                Your cart (1 item)
+              </h1>
+
+            <div id="gift-order-section">
+              <div class="custom-control custom-checkbox">
+                <input
+                  type="checkbox"
+                  class="custom-control-input"
+                  id="gift-order-checkbox"
+                />
+                <label class="custom-control-label" for="gift-order-checkbox">
+                  My order includes a gift
+                  <a href="#">Learn more</a>
+                </label>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-body">
+                <div class="media">
+                  <img
+                    src="https://place-hold.it/64x64"
+                    alt="an ipad"
+                    class="mr-3"
+                  />
+                  <div class="media-body">
+                      <div class="row">
+                        <div class="sale-item col-sm-3 order-1 order-sm-2">
+                            <div class="sale-item-title">Sale</div>
+                            <div class="sale-item-price">$249.99</div>
+                            <div class="sale-item-msrp">MSRP $329.99</div>
+                        </div>
+                        <div class="col-sm-9 order-1 order-sm-1">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                  <div class="item-description">
+                                      Apple iPad 10.2-inch Wi-Fi Only 32GB - Space Gray (7th
+                                      Generation)
+                                  </div>
+                                  <div class="item-buttons mt-2">
+                                    <button type="button" class="btn btn-outline-dark btn-sm">Qty 1</button>
+                                    <button type="button" class="btn btn-outline-dark btn-sm">Save for later</button>
+                                  </div>
+                                </div>
+                                <div class="col-lg-6">
+                                  <div id="shipping-section">
+                                    <div class="form-check">
+                                      <input
+                                        class="form-check-input"
+                                        type="checkbox"
+                                        value="protection-plan"
+                                        id="protection-plan"
+                                      />
+                                      <label class="form-check-label" for="protection-plan">
+                                        2 year SquareTrade Protection
+                                      </label>
+                                    </div>
+                                    <div class="form-check">
+                                      <input
+                                        class="form-check-input"
+                                        type="radio"
+                                        name="shipping"
+                                        id="shipping-2-day"
+                                        value="2-day"
+                                        checked
+                                      />
+                                      <label
+                                        class="form-check-label"
+                                        for="shipping-2-day"
+                                      >
+                                        2-day shipping
+                                      </label>
+                                    </div>
+                                    <div class="form-check">
+                                      <input
+                                        class="form-check-input"
+                                        type="radio"
+                                        name="shipping"
+                                        id="shipping-store"
+                                        value="store"
+                                      />
+                                      <label
+                                        class="form-check-label"
+                                        for="shipping-store"
+                                      >
+                                        Ship to store
+                                      </label>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr class="d-none d-md-block">
+          </div>
+          <div class="col-md-4 cart-receipt-container">
+              <div class="cart-receipt">
+                <h1 class="cart-receipt-title">Order summary</h1>
+                <div class="row">
+                    <div class="col-9">
+                        <input class="form-control" type="text" placeholder="Promo code" aria-label="Promo code">
+                    </div>
+                    <div class="col-3">
+                        <button class="btn btn-outline-dark btn-sm my-1">Apply</button>
+                    </div>
+                </div>
+                <hr>
+                <table id="receipt-table" class="table table-borderless table-sm">
+                    <tbody>
+                        <tr>
+                        <td>Subtotal <span class="receipt-count">(1 item)</span></td>
+                        <td class="receipt-amount">$249.99</td>
+                        </tr>
+                        <tr>
+                        <td>Delivery</td>
+                        <td class="receipt-amount"><span class="text-emphasis">Free</span></td>
+                        </tr>
+                        <tr>
+                            <td>Delivery</td>
+                            <td class="receipt-amount">$18.75</td>
+                        </tr>
+                        <tr class="receipt-total-row">
+                            <td>Total</td>
+                            <td class="receipt-amount">$268.74</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button id="checkout-button" type="button" class="btn btn-danger btn-lg btn-block">I'm ready to check out</button>
+                <hr>
+                <div id="cart-number">
+                    <strong>Cart number:</strong> 1066032599899
+                </div>
+              </div>
+
+            <div class="ad-space d-none d-md-flex"><span class="ad-text">An Ad</span></div>
+          </div>
+          <div class="ad-space d-md-none"><span class="ad-text">An Ad</span></div>
+        </div>
+      </form>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Ionicons -->
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+  </body>
+</html>
